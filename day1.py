@@ -38,3 +38,25 @@ print (z)
 age=32
 type(age)
 
+
+# type inference
+variable=10
+print(type(variable))
+variable ="Tom"
+print(type(variable))
+
+
+
+# Name error 
+# a=b  
+# NameError: name 'b' is not defined
+
+
+
+
+# code example of indentation
+if True:
+    print("correct indentation")
+    if False:
+        print("This will not print")
+print("This will Print")
