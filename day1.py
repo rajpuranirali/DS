@@ -209,3 +209,31 @@ print("Floor Division is", floor_division)  #int ans only
 # Remainder is 0.0
 # Power is 10000000000.0
 # Floor Division is 1.0
+
+print()
+
+# boolean 
+a=10
+b=10
+c= 20
+
+print (a==b)
+    # output
+    # True
+print(a==c)
+    # output    
+    # False
+print(type(a==b), type(a==c)) 
+    # output
+    # <class 'bool'> <class 'bool'>
+
+
+
+print()
+result = "hello" + str(5)
+print(result)
+
+    # output
+    # hello5
+    
+
