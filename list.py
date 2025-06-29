@@ -1,3 +1,4 @@
+
 # List is mutable collection of items.
 lst=[]
 print(type(lst))
@@ -180,3 +181,24 @@ print()
 words = ["helllo" , "world" , "are" , "you" ,"okay"]
 print(words)
 lenghts = [print(len(word)) for word in (words)]
+
+print()
+# convert into list using inbuilt function:
+lst = list()
+print(lst)
+print(type(lst))
+
+print()
+print("Create a tuple: ")
+tpl = tuple = (1,2,3,4)
+print(tpl)
+print(type(tpl))
+# conver it into list 
+print("convert tuple in to list using inbuilt function")
+lst = list(tpl)
+print(lst)
+print(type(lst))
+
+print()
+
+
