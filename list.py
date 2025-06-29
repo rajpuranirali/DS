@@ -202,3 +202,153 @@ print(type(lst))
 print()
 
 
+# another method convert tuple in list 
+tuple = (5,6,7,8)
+print(tuple, type(tuple))
+print()
+
+lst = list((5,6,7,8))
+print(lst, type(lst))
+
+"""
+
+output
+<class 'list'>
+['sita', 'Gita', 1, 2, 3, ' ', 4, 'hello']
+['sita', 'Gita', 1, 2, 3, ' ', 4, 'hello', True]
+
+display fruits:  ['mango', 'banana', 'kiwi', 'apple']
+Display element on zero index:  mango
+Display element on first index: banana
+
+Print fruits from idex 1:  ['banana', 'kiwi', 'apple']
+Print fruits from index 1 to 3:  ['banana', 'kiwi']
+Print last element:  apple
+Print last element:  ['apple', 'kiwi', 'banana']
+
+Current list is :  ['mango', 'banana', 'kiwi', 'apple']
+modify 2nd element of list:  ['mango', 'papaya', 'kiwi', 'apple']
+
+change string after first element:  ['mango', 'w', 'a', 't', 'e', 'r', 'm', 'e', 'l', 'o', 'n']
+
+append method:  ['mango', 'w', 'a', 't', 'e', 'r', 'm', 'e', 'l', 'o', 'n', 'Orange']
+
+insert method:  ['mango', 'banana', 'w', 'a', 't', 'e', 'r', 'm', 'e', 'l', 'o', 'n', 'Orange']
+
+remove method:  ['mango', 'w', 'a', 't', 'e', 'r', 'm', 'e', 'l', 'o', 'n', 'Orange']
+
+pop method:  Orange
+Updated list ['mango', 'w', 'a', 't', 'e', 'r', 'm', 'e', 'l', 'o', 'n']
+
+Updated fruits :  ['mango', 'w', 'a', 'apple', 't', 'e', 'r', 'm', 'e', 'l', 'apple', 'o', 'n', 'kiwi']
+
+Index number of Kiwi is 13
+Count the number of apple in the list 2
+
+Sorted list:  ['a', 'apple', 'apple', 'e', 'e', 'kiwi', 'l', 'm', 'mango', 'n', 'o', 'r', 't', 'w']
+
+Reversed list:  ['w', 't', 'r', 'o', 'n', 'mango', 'm', 'l', 'kiwi', 'e', 'e', 'apple', 'apple', 'a']
+
+List after removing all items:  []
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[3, 4, 5]
+[1, 2, 3, 4, 5]
+[6, 7, 8, 9, 10]
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+[1, 3, 5, 7, 9]
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+mango
+banana
+apple
+orange
+kiwi
+0 10
+1 20
+2 30
+3 40
+
+using for loop
+[0]
+[0, 1]
+[0, 1, 4]
+[0, 1, 4, 9]
+[0, 1, 4, 9, 16]
+using list comprehension: 
+[0, 1, 4, 9, 16]
+
+
+[0]
+[0, 1]
+[0, 1, 4]
+[0, 1, 4, 9]
+[0, 1, 4, 9, 16]
+[0, 1, 4, 9, 16, 25]
+[0, 1, 4, 9, 16, 25, 36]
+[0, 1, 4, 9, 16, 25, 36, 49]
+[0, 1, 4, 9, 16, 25, 36, 49, 64]
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+0
+2
+4
+6
+8
+
+0
+2
+4
+6
+8
+
+a 1
+a 2
+a 3
+a 4
+b 1
+b 2
+b 3
+b 4
+c 1
+c 2
+c 3
+c 4
+d 1
+d 2
+d 3
+d 4
+
+['helllo', 'world', 'are', 'you', 'okay']
+6
+5
+3
+3
+4
+
+[]
+<class 'list'>
+
+Create a tuple: 
+(1, 2, 3, 4)
+<class 'tuple'>
+convert tuple in to list using inbuilt function
+[1, 2, 3, 4]
+<class 'list'>
+
+(5, 6, 7, 8) <class 'tuple'>
+
+[5, 6, 7, 8] <class 'list'>
+
+
+"""
