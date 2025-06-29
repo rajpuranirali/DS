@@ -93,3 +93,65 @@ print("Reversed list: ", fruits)
 print()
 fruits.clear()
 print("List after removing all items: ", fruits)
+
+print()
+# slicing list:
+# list[start:stop:step]
+
+
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+print(numbers)
+print(numbers[:]) # print all the elements
+print(numbers[2:5]) # [3,4,5]
+print(numbers[:5]) #[1,2,3,4,5]
+print(numbers[5:]) #[6,7,8,9,10]
+print(numbers[::-1]) #[10,9,8,7,6,5,4,3,2,1]
+print(numbers[::2]) 
+# [1, 3, 5, 7, 9] 
+# In numbers[::2]:
+# start is omitted → starts from index 0 (1)
+# stop is omitted → goes till the end
+# step is 2 → selects every second element
+
+# iteration in list 
+print()
+for numbers in numbers:
+    print(numbers) # print all the elements in the list
+
+fruits = ["mango", "banana","apple","orange","kiwi"]
+for fruit in fruits:    
+    print(fruit) # print all the elements in the list
+
+# print(type(number))
+# for index,number in enumerate(numbers):
+#     print(index, numbers)
+
+numbers = [10, 20, 30, 40]
+
+for index, number in enumerate(numbers):
+    print(index, number)
+
+
+
+# Using list comprehension
+print() 
+# square using for loop
+print ("using for loop")
+squares = []
+for x in range(5):
+    squares.append(x**2)
+    print(squares)
+
+# Using list comprehension
+print("using list comprehension: ")
+squares = [x**2 for x in range(5)]
+print(squares)
+
+# lst comprehension for x power 2 
+lst[]
+for x in range (10)
+   lst.append(x**2)
+   print(lst)
+
+# list comprehension 
