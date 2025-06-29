@@ -148,10 +148,35 @@ print("using list comprehension: ")
 squares = [x**2 for x in range(5)]
 print(squares)
 
-# lst comprehension for x power 2 
-lst[]
-for x in range (10)
+print()
+print()
+#for loop 
+#  lst comprehension for x power 2 
+lst = []
+for x in range (10):
    lst.append(x**2)
    print(lst)
+print()
 
-# list comprehension 
+# print even number
+lst = []
+for x in range (10):
+    if x % 2 == 0: 
+        print(x)
+
+print()
+even = [print(x) for x in range(10) if x%2==0]  # [expression for item in iterable if condion] 
+
+print()
+# nested iteration
+list1 = [1,2,3,4]
+list2 = ["a","b","c","d"]
+
+list3 = [ print(i,j) for i in list2 for j in list1 ] #[expression for item1 in iterable1 for item2 in iterable2]
+
+
+print()
+# list comprehension with function call
+words = ["helllo" , "world" , "are" , "you" ,"okay"]
+print(words)
+lenghts = [print(len(word)) for word in (words)]
