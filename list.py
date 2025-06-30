@@ -216,7 +216,9 @@ print(nested_list)
 print(type(nested_list))
 print(nested_list[1])
 print()
-
+# Slice in nested list
+print(nested_list[0][1]) # it will display list of 0th index -> 1 index elememt
+print(nested_list [0] [0:3])
 
 
 
@@ -367,5 +369,6 @@ convert tuple in to list using inbuilt function
 <class 'list'>
 [4, 5, 6]
 
-
+2
+[1, 2, 3]
 """
