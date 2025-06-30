@@ -210,6 +210,17 @@ print()
 lst = list((5,6,7,8))
 print(lst, type(lst))
 
+# Nested List
+nested_list = [[1,2,3],[4,5,6],[7,8,8,9,10,19],[2,"hello",True,'p']]
+print(nested_list)
+print(type(nested_list))
+print(nested_list[1])
+print()
+
+
+
+
+
 """
 
 output
@@ -349,6 +360,12 @@ convert tuple in to list using inbuilt function
 (5, 6, 7, 8) <class 'tuple'>
 
 [5, 6, 7, 8] <class 'list'>
+
+
+[5, 6, 7, 8] <class 'list'>
+[[1, 2, 3], [4, 5, 6], [7, 8, 8, 9, 10, 19], [2, 'hello', True, 'p']]
+<class 'list'>
+[4, 5, 6]
 
 
 """
