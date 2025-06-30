@@ -219,8 +219,11 @@ print()
 # Slice in nested list
 print(nested_list[0][1]) # it will display list of 0th index -> 1 index elememt
 print(nested_list [0] [0:3])
+print()
 
-
+# list contain tuple
+lst = [[1,2,3],[4,5,6],[7,8,8,9,10,19],(2,"hello",True,'p')]
+print(lst)
 
 
 """
@@ -371,4 +374,6 @@ convert tuple in to list using inbuilt function
 
 2
 [1, 2, 3]
+
+[[1, 2, 3], [4, 5, 6], [7, 8, 8, 9, 10, 19], (2, 'hello', True, 'p')]
 """
