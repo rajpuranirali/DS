@@ -91,7 +91,91 @@ print(middle)
 print(last)
 print()
 
-# Nested Tuples
+# list contain tuple
 lst = [[1,2,3],[4,5,6],[7,8,8,9,10,19],(2,"hello",True,'p')]
-print(lst
-)
+print(lst)
+print()
+
+# Nested tuples 
+tpl = ((1,2,3),(4,5,6),(7,8,8,9,10,19),(2,"hello",True,'p'))
+print(tpl)
+print(tpl[0])
+print(tpl[1][1])
+print(tpl[2][1:4])
+print()
+
+# Iteration over nested tuples
+for sub_tpl in tpl:
+    for item in sub_tpl :
+        print(item, end = " ")
+        print()
+
+"""
+OUTPUT
+()
+<class 'tuple'>
+
+convert list to tuple
+<class 'list'> [10, 20, 30]
+<class 'tuple'> (10, 20, 30)
+
+convert tuple to list
+(1, 2, 3, 4) <class 'tuple'>
+[1, 2, 3, 4] <class 'list'>
+Mixed Tuples
+('Start', 1, 2, 'hello', True, 'end')
+(1, 2, 3, 4, 5, 6, 7, 8)
+1
+8
+(2, 3, 4)
+(1, 2, 3, 4, 5, 6, 7, 8)
+(8, 7, 6, 5, 4, 3, 2, 1)
+('Start', 1, 2, 'hello', True, 'end', 1, 2, 3, 4, 5, 6, 7, 8)
+('Start', 1, 2, 'hello', True, 'end', 'Start', 1, 2, 'hello', True, 'end', 'Start', 1, 2, 'hello', True, 'end')
+
+(1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8)
+
+Count 4 in tuple2
+
+index of number in tuple 0
+
+(1, 2, 'hello', 3.14)
+
+1
+2
+hello
+3.14
+
+1
+[2, 3, 4, 5]
+6
+
+[1, 2, 3, 4, 5]
+6
+
+[[1, 2, 3], [4, 5, 6], [7, 8, 8, 9, 10, 19], (2, 'hello', True, 'p')]
+
+((1, 2, 3), (4, 5, 6), (7, 8, 8, 9, 10, 19), (2, 'hello', True, 'p'))
+(1, 2, 3)
+5
+(8, 8, 9)
+
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+8 
+9 
+10 
+19 
+2 
+hello 
+True 
+p 
+
+
+"""
