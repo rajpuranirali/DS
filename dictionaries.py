@@ -43,7 +43,55 @@ print()
 del student['city'] 
 print(student)
 
-# pop() method
+print()
+# pop() method LIFO 
 print()
 student.pop('Grade')
 print(student)
+
+print()
+# print all the keys 
+dic_keys = student.keys()
+print(dic_keys)
+
+print()
+# print all the values 
+print (student.values()) 
+
+print()
+# print all the items
+print(student.items())
+
+print()
+
+# copy 
+# update will happen in original dic and copied dic to overcome this issue shallow coppy is the solution. 
+
+student_copy = student
+print(f"original dic {student}")
+print(f"copied dic {student_copy}")
+print()
+student_copy["age"] = 19
+print("modified student_copy" , student_copy) # modified student_copy {'name': 'Tom', 'age': 19, 'address': 'USA'}
+print("Student dic ",student) # Student dic  {'name': 'Tom', 'age': 19, 'address': 'USA'}
+student_copy["name"] = "Jerry"
+print()
+print("modified student_copy" , student_copy) # modified student_copy {'name': 'Jerry', 'age': 19, 'address': 'USA'}
+print("Student dic ",student) # Student dic  {'name': 'Jerry', 'age': 19, 'address': 'USA'}
+print()
+
+
+# shallow copy
+student_shallow_copy = student.copy()
+
+print()
+# update 
+student_shallow_copy["address"] = "Canada"
+print("modified student_shallow_copy" , student_shallow_copy) # modified student_shallow_copy {'name': 'Jerry', 'age': 19, 'address': 'Canada'}
+print("Student dic ",student) # Student dic  {'name': 'Jerry', 'age': 19, 'address': 'USA'} 
+
+print()
+student["age"] = 22
+print("modified student_shallow_copy" , student_shallow_copy) # modified student_shallow_copy {'name': 'Jerry', 'age': 19, 'address': 'Canada'}
+print("Student dic ",student) # Student dic  {'name': 'Jerry', 'age': 22, 'address': 'USA'}
+
