@@ -49,7 +49,7 @@ print(f"remove 3: {my_set}")
 my_set.discard(5)
 print(f"discard 5: {my_set}")
 
-# pop: first in first out
+# pop:  first value of the set will removed 
 poped_element = my_set.pop()
 print(f"poped element: {poped_element}")
 print(f"set after pop: {my_set}")
