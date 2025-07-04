@@ -91,3 +91,62 @@ def mul(a,b):
 print(mul)  
 ans= mul(2,6)
 print(ans)
+
+
+"""
+output
+
+The number is even
+
+Please enter an Number: 30
+The number is even
+
+Addition of two numbers are 5
+First Number is: 30
+Second Number is: 20
+50
+First Number is: 1
+Second Number is: 3
+50
+Hello, Tom
+Hello, Jerry
+1
+2
+3
+4
+5
+6
+7
+8
+9
+tom
+1
+2
+3
+4
+5
+6
+7
+8
+9
+jerry
+name : Tom
+age : 19
+country : USA
+Positional Arguments:
+  - 1
+  - 2
+  - 3
+  - 4
+
+Keyword Arguments:
+name : Tom
+age : 3
+country : USA
+<function mul at 0x102c95d30>
+(12, 2)
+
+
+
+
+"""
