@@ -2,10 +2,6 @@ Hello World
 This is a new line
 My name is Tom
 Jerry is my best friend
-My name is Tom
-Jerry is my best friend
 first line 
-second line
-third linefirst line 
 second line
 third line
