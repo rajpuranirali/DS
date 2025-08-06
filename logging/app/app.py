@@ -45,6 +45,15 @@
 # mul(10,15)
 # div(10,0)
 
+# 🔍 Issues in Code
+# logging.basicConfig() + handlers conflict:
+# If you specify handlers, then filename, filemode, level, format, and datefmt will have no effect.
+# This is per Python logging docs:
+# If handlers is specified, it completely overrides the filename, stream, format, datefmt, and level arguments.
+# Wrong log messages in sub(), mul(), and div():
+# You're logging all operations with "Adding" instead of the correct operation (e.g., "Subtracting").
+# Two files (app.log and app1.log) intended, but only app1.log will be used because of the handlers override.
+
 import logging
 
 # Create a custom logger
